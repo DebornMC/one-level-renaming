@@ -1,9 +1,7 @@
 # one-level-renaming
 
-## Setup
+In vanilla Minecraft, attempting to rename an item that has been used in an anvil will add a penalty to the renaming cost. 
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+Renaming an item only costs 1 extra level when renaming it while also enchanting/repairing it. Therefore, renaming an item after enchanting/repairing it costing more is unintuitive.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod fixes this by making item renames always cost 1 level, regardless of enchantments or repairs.
