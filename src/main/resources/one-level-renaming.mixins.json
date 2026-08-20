@@ -3,7 +3,7 @@
 	"package": "deborn.onelevelrenaming.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"AnvilMenuMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
